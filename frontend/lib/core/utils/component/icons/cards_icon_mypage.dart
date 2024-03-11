@@ -1,17 +1,3 @@
-import 'package:flutter/material.dart';
-import 'package:frontend/core/theme/constant/app_icons.dart';
-import 'package:frontend/presentation/routes/route_path.dart';
-import 'package:go_router/go_router.dart';
-
-class CardsIconMypage extends StatelessWidget {
-  const CardsIconMypage({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return InkWell(
-      onTap: () {},
-      child: Image.asset(AppIcons.word_icon,
-          width: MediaQuery.of(context).size.width * 0.05),
-    );
-  }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:5219d873c7aaf1e942a1f7d3c347dbc5a7b4de22b74bb3c7bc44f5125abbd790
+size 399
